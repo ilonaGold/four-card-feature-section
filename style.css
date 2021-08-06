@@ -100,6 +100,99 @@ img {
     height: 55px;
 }
 
+/* Media Queries */
+
+@media (min-width: 320px) {
+    .card p {
+        width: 95%;
+    }
+}
+@media (min-width: 411px) {
+    .card p {
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 75%;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 811px) {
+    h1 {
+        font-size: 32px;
+    }
+    .card h2 {
+        font-size: 22px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 100%;
+        padding: 90px 100px 80px;
+        /* box-sizing: content-box; */
+    }
+    h1 {
+        font-size: 37px;
+    }
+    header p {
+        width: 55ch;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+    .cards {
+        display: flex;
+        margin-right: 30px;
+    }
+    .card {
+        width: 250px;
+        height: 252px;
+        margin-left: 30px;
+    }
+    .supervisor, .calculator {
+        position: relative;
+        top: 140px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* main {
+        padding: 90px 162px 80px;
+    } */
+}
+
+@media (min-width: 1440px) {
+    body {
+        padding: 90px 162px 80px;
+    }
+    .card {
+        width: 350px;
+        height: 252px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+}
+
 /* Attribution */
 
 .attribution { 
