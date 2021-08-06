@@ -148,7 +148,6 @@ img {
     body {
         width: 100%;
         padding: 90px 100px 80px;
-        /* box-sizing: content-box; */
     }
     h1 {
         font-size: 37px;
@@ -160,12 +159,11 @@ img {
     }
     .cards {
         display: flex;
-        margin-right: 30px;
+        justify-content: space-between;
     }
     .card {
         width: 250px;
         height: 252px;
-        margin-left: 30px;
     }
     .supervisor, .calculator {
         position: relative;
@@ -174,15 +172,12 @@ img {
 }
 
 @media (min-width: 1200px) {
-    /* main {
-        padding: 90px 162px 80px;
-    } */
-}
-
-@media (min-width: 1440px) {
     body {
         padding: 90px 162px 80px;
     }
+}
+
+@media (min-width: 1440px) {
     .card {
         width: 350px;
         height: 252px;
@@ -190,7 +185,12 @@ img {
 }
 
 @media (min-width: 1920px) {
-
+    body {
+        padding: 90px 400px 80px;
+    }
+    header p {
+        line-height: 28px;
+    }
 }
 
 /* Attribution */
